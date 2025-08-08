@@ -1,0 +1,8 @@
+---
+- name: Hello World Playbook
+  hosts: localhost
+  gather_facts: false
+  tasks:
+    - name: Print Hello
+      debug:
+        msg: "Hello from GitHub Actions triggered AWX!"
